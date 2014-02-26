@@ -15,6 +15,10 @@ Getting Started
 ---------------
 
 <?php
+    /**
+     * hello.php
+     */
+
     require 'vendor/autoload.php';
 
     use Timandes\CLI\Service;
@@ -24,6 +28,14 @@ Getting Started
     }, 3);
     $oService->start();
 ?>
+
+Launch:
+
+$ php hello.php
+
+Terminate safely (assume PID is 1234):
+
+$ kill 1234
 
 Documents
 ---------
